@@ -1,0 +1,353 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color:black;
+
+}
+body {
+    color: #818181;
+    background-color:black;
+}
+
+
+h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600;
+}
+h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    color: #303030;
+    font-weight: 400;
+}  
+.jumbotron {
+    width: 100%;
+    background-color:white;
+    color:black;
+    font-family: Montserrat, sans-serif;
+}
+.change7{
+     background: transparent;
+    border:0px;
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    color:orangered;
+    box-shadow: 0 0 1px transparent;
+    -webkit-transition-duration: 0.5s;
+    -webkit-transition-timing-function: linear;
+    box-shadow:0px 0 0 orangered  inset;
+}
+.change7:hover{
+    box-shadow:200px 0 0 black inset;
+}
+.github{
+    font-size: 90px;
+    color: orangered;
+    }
+   
+.container-fluid {
+    padding: 50px 50px;
+}
+.bg-grey {
+    background-color: #f6f6f6;
+}
+.logo-small {
+    color: #f4511e;
+    font-size: 50px;
+}
+.logo {
+    color: #f4511e;
+    font-size: 200px;
+}
+.carousel-control.right, .carousel-control.left {
+    background-image: none;
+    color: #f4511e;
+}
+.carousel-indicators li {
+    border-color: transparent;
+}
+.carousel-indicators li.active {
+    background-color: #f4511e;
+}
+.item h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    font-weight: 400;
+    font-style: italic;
+    margin: 70px 0;
+}
+.p1{
+    margin-top: 10%;
+    color:white;
+}
+.item span {
+    font-style: normal;
+}
+.panel {
+    border: 1px solid transparent; 
+    border-radius:0 !important;
+    transition: box-shadow 0.5s;
+}
+.panel:hover {
+    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+}
+/* .panel-footer .btn:hover {
+    border: 1px solid #f4511e;
+    background-color: #fff !important;
+    color: #f4511e;
+} */
+.panel-heading {
+    color: #fff !important;
+    background-color: #f4511e !important;
+    padding: 25px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+/* .panel-footer {
+    background-color: white !important;
+}
+.panel-footer h3 {
+    font-size: 32px;
+}
+.panel-footer h4 {
+    color: #aaa;
+    font-size: 14px;
+}
+.panel-footer .btn {
+    margin: 15px 0;
+    background-color: #f4511e;
+    color: #fff;
+} */
+.jumbotron2{
+      background-color: #f6f6f6;
+}
+.navbar {
+    margin-bottom: 0;
+    background-color: black;
+    z-index: 9999;
+    border: 0;
+    font-size: 20px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.navbar li a, .navbar .navbar-brand {
+    color: orangered !important;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: orangered !important;
+    background-color:white !important;
+}
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+/* footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #f4511e;
+} */
+/* html {
+    background: #CCD0D4;
+    min-height: 100%;
+  }
+  
+  body {
+    min-height: 100%;
+  } */ 
+.r1 
+{
+    width: 350;
+    height: 350px;
+    border-radius:3%;
+    border: 2px solid lightblue;
+} 
+  h1.loader {
+    margin-top: 10%;  
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.500em;
+    color: transparent;
+    letter-spacing: 0.00em;
+
+  }
+  
+  .loader span {
+    text-shadow:
+      0 0 1px rgb(0, 0, 0),
+      0 4px 15px rgba(245, 244, 244, 0.877),
+      0 0 0 rgba(0, 0, 0, 0),
+      0 0 0 rgba(255, 255, 255, 0),
+      0 0 0 rgba(0, 0, 0, 0),
+      0 0 0 rgba(255, 255, 255, 0),
+      0 0 0 rgba(255, 255, 255, 0);
+    
+      animation: loading 2.85s ease-in-out infinite alternate;
+  }
+  
+  @keyframes loading {
+      to {text-shadow:
+      0 0 1px rgb(255, 69, 0),
+      0 4px 15px rgba(248, 247, 247, 0.877),
+      0 0 0 rgba(0, 0, 0, 0),
+      0 0 0 rgba(255, 255, 255, 0),
+      0 0 0 rgba(0, 0, 0, 0),
+      0 0 0 rgba(255, 255, 255, 0),
+      0 0 0 rgba(255, 255, 255, 0);}
+  }
+  .paragraph{
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      color: black;
+      font-size: 20px;
+      
+}
+  
+  .loader span:nth-child(2) {
+    animation-delay:0.15s;
+  }
+  
+  .loader span:nth-child(3) {
+    animation-delay:0.30s;
+  }
+  
+  .loader span:nth-child(4) {
+    animation-delay:0.45s;
+  }
+  
+  .loader span:nth-child(5) {
+    animation-delay:0.60s;
+  }
+  
+  .loader span:nth-child(6) {
+    animation-delay:0.75s;
+  }
+  
+  .loader span:nth-child(7) {
+    animation-delay:0.90s;
+  }
+
+ 
+  hr{ 
+    height: 4px;
+    color: red;
+    background-color: red;
+    border: none;
+  }
+.word {
+    color: bisque;
+    font: 100 normal 1.3em/2.3 Arial, Helvetica, sans-serif;
+    /* text-shadow: 1px 2px #288ce3, 2px 4px #288ce3, 3px 6px #288ce3, 4px 8px #288ce3, 5px 10px #288ce3, 6px 12px #288ce3, 7px 14px #288ce3, 8px 16px #288ce3, 9px 18px #288ce3, 10px 20px #288ce3; */
+  }
+ 
+  .icon1{
+      font-size: 100px;
+  }
+  .icon2{
+    font-size: 100px;
+}
+.nodejs{
+    font-size: 100px;
+}
+.expressjs{
+    font-size: 100px;
+}
+.mysql{
+    font-size: 100px;
+}
+.mongo{
+    font-size: 100px;
+}
+.react{
+    font-size: 100px;
+}
+.c{
+    font-size: 100px;
+}
+.ps{
+    font-size: 100px;
+}
+.zoom {
+    background-color: transparent;
+    transition: transform 1.1s; /* Animation */
+
+}
+
+.zoom:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.jumbotron4{
+    background-color:black;
+    font-family: Montserrat, sans-serif;
+    height: 700px;
+    width: 100%;
+}
+.project1{
+    height: 300px;
+    width: 280px;
+
+}
+.friend{
+    color: black;
+}
+.friend1{
+    background-color: black;
+}
+.myworks{
+    color: bisque;
+}
+.contact{
+    color: white;
+    font-size: 50px;
+}
+.info{
+    color: orangered;
+    font-size: 35px;
+}
+.fa{
+    color: white;
+    font-size:35px;
+}
+  
+    
+
+@media screen and (max-width: 360px) {
+    .r1 
+{
+    width: 200px;
+    height: 200px;
+    border-radius:5%;
+    border: 2px solid lightblue;
+    
+} 
+.project1{
+    height: 200px;
+    width: 200px;
+
+}
+}
+
+ @media screen and (max-width: 591px) {
+     .r1 
+{
+    width: 200px;
+    height: 200px;
+    border-radius:5%;
+    border: 2px solid lightblue;
+} 
+.project1{
+    height: 200px;
+    width: 200px;
+
+}
+ }
